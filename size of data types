@@ -1,3 +1,4 @@
+1. C++ Program to Find Size of int, float, double and char in Your System
 #include <iostream>
 using namespace std;
 
@@ -16,3 +17,23 @@ Size of char: 1 byte
 Size of int: 4 bytes
 Size of float: 4 bytes
 Size of double: 8 bytes
+
+2.C++ Find Sum of n Numbers entered by the User
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    cout << "\n\n Print the sum of two numbers :\n";
+	cout << "-----------------------------------\n";
+	int a;
+	int b;
+	int sum;
+	a=29;
+	b=30;
+	sum=a+b;
+	cout << " The sum of "<< a << " and "<<b <<" is : "<< sum <<"\n\n" ;
+}
+Print the sum of two numbers :                                        
+-----------------------------------                                    
+ The sum of 29 and 30 is : 59
